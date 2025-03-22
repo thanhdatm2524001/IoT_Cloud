@@ -3,8 +3,8 @@ const port = process.env.PORT || 3000;
 
 const students = [
   { id: 1, name: "Lê Thành Đạt", studentId: "M2524001", email: "datm2524001@gstudent.ctu.edu.vn", phone:"+84916671369", birthday:"24/3/2001", hometown:"Cần Thơ" },
-  { id: 2, name: "Đạt", studentId: "M2524002", email: "m2524002@gstudent.ctu.edu.vn", phone:"+84916671369", birthday:"24/3/2001", hometown:"Cần Thơ"  },
-  { id: 2, name: "Đạt", studentId: "M2524002", email: "m2524002@gstudent.ctu.edu.vn", phone:"+84916671369", birthday:"24/3/2001", hometown:"Cần Thơ"  },
+  { id: 2, name: "Hua Thai Hung", studentId: "M2524002", email: "m2524002@gstudent.ctu.edu.vn", phone:"+84916671369", birthday:"24/3/2001", hometown:"Cần Thơ"  },
+  { id: 3, name: "Huynh Ngoc Tuyet", studentId: "M2524002", email: "m2524002@gstudent.ctu.edu.vn", phone:"+84916671369", birthday:"24/3/2001", hometown:"Cần Thơ"  },
 ];
 
 const server = http.createServer((req, res) => {
