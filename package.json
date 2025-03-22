@@ -1,0 +1,25 @@
+{
+  "name": "nodejs_todolist",
+  "version": "1.0.0",
+  "description": "\"# IoT_Cloud\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+     "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanhdatm2524001/IoT_Cloud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanhdatm2524001/IoT_Cloud/issues"
+  },
+  "homepage": "https://github.com/thanhdatm2524001/IoT_Cloud#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "yargs": "^17.7.2"
+  }
+}
